@@ -1,16 +1,14 @@
-
-
 services: 
   api: 
       build: .
       ports: 
             - 8002:8002
       environment:
-            - database_hostname = localhost
-            - database_port = 5432
-            - database_password = Kamasutra686?
-            - database_name = FastAPi
-            - database_username = postgres
-            - secret_key = 5433545134gkghd684g65dr4g354sgr35468gs5r4savhtj8tr685455555555sssssssss63x453sasrh64
-            - algorithm = HS256
-            - access_token_expire_minutes = 60
+            - DATABASE_HOSTNAME = localhost
+            - DATABASE_PORT = 5432
+            - DATABASE_PASSWORD = Kamasutra686?
+            - DATABASE_NAME = FastAPi
+            - DATABASE_USER = postgres
+            - SECRET_KEY = 5433545134gkghd684g65dr4g354sgr35468gs5r4savhtj8tr685455555555sssssssss63x453sasrh64
+            - ALOGORITHM = HS256
+            - ACCESS_TOKEN_EXPIRE_MINUTES = 60
